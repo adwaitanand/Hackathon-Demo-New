@@ -127,29 +127,9 @@ public class MainActivity extends AppCompatActivity {
             }
             catch (Exception e)
             {
-
+                e.printStackTrace();
             }
         }
-
-        //        public static Sheets createSheetsService() throws IOException, GeneralSecurityException {
-//            HttpTransport httpTransport = GoogleNetHttpTransport.newTrustedTransport();
-//            JsonFactory jsonFactory = JacksonFactory.getDefaultInstance();
-//
-//            // TODO: Change placeholder below to generate authentication credentials. See
-//            // https://developers.google.com/sheets/quickstart/java#step_3_set_up_the_sample
-//            //
-//            // Authorize using one of the following scopes:
-//            //   "https://www.googleapis.com/auth/drive"
-//            //   "https://www.googleapis.com/auth/drive.file"
-//            //   "https://www.googleapis.com/auth/drive.readonly"
-//            //   "https://www.googleapis.com/auth/spreadsheets"
-//            //   "https://www.googleapis.com/auth/spreadsheets.readonly"
-//            GoogleCredential credential = null;
-//
-//            return new Sheets.Builder(httpTransport, jsonFactory, credential)
-//                    .setApplicationName("Google-SheetsSample/0.1")
-//                    .build(
-
     }
 
 }
